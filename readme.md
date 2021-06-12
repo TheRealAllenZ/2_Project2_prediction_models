@@ -28,11 +28,12 @@ This step included plotting graphs for all the data. A graphical visualization g
 The original data set uses two codes for each airport. October: 5-digits; other months: 3-letters. This notebook resaves the data so that all flights are encoded using the 3-letter system
 
 ## Cleaning & Encoding
--Remove all 'DIVERTED' and "CANCELLED' flights as they are not technically delayed.
--Remove columns that were irrevant.
--The time (HHMM) colums were categorized as Morning, Afternoon, Evening and red light.
--Binary encoding of airline.
--Hashing endoing on both departure and arrival airports.
+
+1. Remove all 'DIVERTED' and "CANCELLED' flights as they are not technically delayed.
+2. Remove columns that were irrevant.
+3. The time (HHMM) colums were categorized as Morning, Afternoon, Evening and red light.
+4. Binary encoding of airline.
+4. Hashing endoing on both departure and arrival airports.
 
 
 
@@ -73,11 +74,12 @@ Overall, our models gave us the desired predictions. It is also good to note tha
 
 
 ## Note
-Due to the huge data set that we had, were unable to upload our files to github however, our work can be found in google drive by clicking the [link](https://drive.google.com/drive/folders/131ZFUUMJAZOHefZRv5gBb5GZYlKQ2JmX?usp=sharing)
+Due to the huge data set that we had, were unable to upload our files to github however, our work can be found in google drive by clicking the [link](https://drive.google.com/drive/folders/131ZFUUMJAZOHefZRv5gBb5GZYlKQ2JmX?usp=sharing).
+
 The files are all labelled with our individual names. In order to get a good understanding and a clear flow of the data and models please open the files in the order outlined:
-        - Faith - Data Visualization
-        - Sabahat - Variuos models with conclusions.
-        - Allen - Varrious models with conclusions.
+1. Faith - Data Visualization      
+2. Sabahat - Variuos models with conclusions.
+3. Allen - Varrious models with conclusions.
         
 Also provided in the various notebooks are readme files that give a prerequisite and flow of how to run the codes used.
 

@@ -17,10 +17,11 @@ Supervised and Deep learning models were used to predict the delay. Selecting th
 A two-fold approach was taken. The first was to predict the delay as 'short delay,' 'medium delay,' and 'long delay' (Classification). The other was to predict the delay itself (Regression).
 
 
-### Data
+
+## Data
 The dataset contains 5M rows of flights., 14 airlines, and 322 airports. The flight's CSV had some airports with four-digit codes instead of IATA codes. We were able to fix the problem using a [tutorial](https://www.kaggle.com/srcole/fix-inconsistent-airport-codes) from kaggle. Weather data  was fetched but the the airport data did not have the address or zip-code to fetch the data from [NOAA](Homepage | National Oceanic and Atmospheric Administration (noaa.gov). To fix this, the airportndata was updated with zip codes using Geocoders API and Google API, as Geocoders API was not able to get zip codes by just the airport name and state, while google API returned multiple addresses for the airport.  The data was then cleaned and finally the data encoded.
 
-## Explotaory Data Anaylyis
+## Explotaory Data Analysis
 This step included plotting graphs for all the data. A graphical visualization gaves a clear perspective on which features really affected the flight arrival delay and those are the features that were used to build various prediction models. 
 
 ## Preprocessing
@@ -47,21 +48,25 @@ The Models used for predicting delays were as follows:
 6. Shallow NN & Deep NN (2 layers)
 7. RecurrectLSTM
 
+
+
 ### Conclusion:
 
 The 2-layer Neural network outperformed all the supervised learning Models. The worst was the kNN, which returned terrible results.
 Nadam optimizer seems to be the best balanced between loss and over-fitting.
 Hot encoding significantly improved the 'accuracy' of the model but turned it into a multi-class target classification.
 
+
+
 ### Postmoterm
 
 ## Difficulties:
--Huge data set that was difficult to load to the machine and run it.
--Some models took upto two days to run hence time consuming.
--Due to the size of the data set and time constraint we were unable to explore other softwares like PowerBi and AWS that could accomodat our dat with much more effeciency.
+1. Huge data set that was difficult to load to the machine and run it.
+2. Some models took upto two days to run hence time consuming.
+3. Due to the size of the data set and time constraint we were unable to explore other softwares like PowerBi and AWS that could accomodat our dat with much more effeciency.
 
 ## Reflections:
--In future, if presented with a huge data set, it's always good to sample the data and run models based on the sampled data then keep adding more data as you improve the models. This saves so much time.
+In future, if presented with a huge data set, it's always good to sample the data and run models based on the sampled data then keep adding more data as you improve the models. This saves so much time.
 
 Overall, our models gave us the desired predictions. It is also good to note that these models are not ready to use in the industry yet as they need more improvement however, they give a very good guidline and starting point. This project was a great learning curve.
 

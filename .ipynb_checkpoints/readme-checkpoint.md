@@ -14,11 +14,9 @@ The dataset contained data for airports, airlines, and flights. The Airports did
 First a dataset was selected, with being cognizant of its usability, with enough features and significant data size. Then came the cleaning portion and data exploration. Followed by the modeling and visualization to show the results of the model. Finally, conclude which models were the best at predicting the delay.
 
 An Exploratory Data Analysis was performed. The results of which fed into the feature selection process and then the feature encoding process.
-Supervised and Deep learning models were used to predict the delay. Selecting the specific features we would use in our data set involved plotting graphs of all the feautures we have in the data set and seeing how they affect the arrival delay. With this visualization we were able to drop the columns with features that we didn't think were ncessary to our project. This left us with a much more cleaner and more specific data set to work with.
+Supervised and Deep learning models were used to predict the delay.
 
 A two-fold approach was taken. The first was to predict the delay as 'short delay,' 'medium delay,' and 'long delay' (Classification). The other was to predict the delay itself (Regression).
-
-
 
 ### Multi-Class Classification
 
@@ -35,9 +33,7 @@ Conclusion:
 
 The 2-layer Neural network outperformed all the supervised learning Models. The worst was the kNN, which returned terrible results.
 
-
-## Note
-Due to the huge data set that we had, wereunable to upload our files to github however, our work can be found in google drive by clicking the [link](https://drive.google.com/drive/folders/131ZFUUMJAZOHefZRv5gBb5GZYlKQ2JmX?usp=sharing)
+## 
 
 
 

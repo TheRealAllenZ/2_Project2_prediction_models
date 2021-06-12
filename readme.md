@@ -53,7 +53,10 @@ The Models used for predicting delays were as follows:
 
 ### Conclusion:
 
-The 2-layer Neural network outperformed all the supervised learning Models. The worst was the kNN, which returned terrible results.
+The 2-layer Neural network outperformed all the supervised learning Models. 
+
+The worst was the kNN, which returned terrible results.
+
 Nadam optimizer seems to be the best balanced between loss and over-fitting.
 Hot encoding significantly improved the 'accuracy' of the model but turned it into a multi-class target classification.
 

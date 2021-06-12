@@ -70,7 +70,7 @@ Hot encoding significantly improved the 'accuracy' of the model but turned it in
 2. Some models took upto two days to run hence time consuming.
 3. Due to the size of the data set and time constraint we were unable to explore other softwares like PowerBi and AWS that could accomodat our dat with much more effeciency.
 
-## Reflections:
+### Reflections:
 In future, if presented with a huge data set, it's always good to sample the data and run models based on the sampled data then keep adding more data as you improve the models. This saves so much time.
 
 Overall, our models gave us the desired predictions. It is also good to note that these models are not ready to use in the industry yet as they need more improvement however, they give a very good guidline and starting point. This project was a great learning curve.
